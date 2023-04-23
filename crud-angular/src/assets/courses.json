@@ -1,0 +1,37 @@
+[
+  {
+    "_id": "1",
+    "name": "Angular",
+    "category": "front-end" 
+  },
+  {
+    "_id": "2",
+    "name": "Vuejs",
+    "category": "front-end" 
+  },
+  {
+    "_id": "3",
+    "name": "React",
+    "category": "front-end" 
+  },
+  {
+    "_id": "4",
+    "name": "Svelte",
+    "category": "front-end" 
+  },
+  {
+    "_id": "5",
+    "name": "Qwik",
+    "category": "front-end" 
+  },
+  {
+    "_id": "6",
+    "name": "Java",
+    "category": "back-end" 
+  },
+  {
+    "_id": "7",
+    "name": ".NET",
+    "category": "back-end" 
+  }
+]
