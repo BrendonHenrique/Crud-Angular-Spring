@@ -12,7 +12,7 @@ import { MatDialog } from '@angular/material/dialog';
 })
 export class CoursesComponent {
   courses$: Observable<Course[]>
-  displayedColumns: string[] = ['name', 'category']
+  displayedColumns: string[] = ['_id', 'name', 'category']
 
   constructor(
     private coursesService: CoursesService,

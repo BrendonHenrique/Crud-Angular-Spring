@@ -1,0 +1,8 @@
+package com.brendon.crudspring.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.brendon.crudspring.model.Course;
+
+public interface CourseRepository extends JpaRepository<Course, Long> {
+}
