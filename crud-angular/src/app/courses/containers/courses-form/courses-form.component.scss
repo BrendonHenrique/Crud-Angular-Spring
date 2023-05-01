@@ -1,0 +1,13 @@
+.form { 
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+
+  &-action { 
+    padding: 1rem;
+    
+    button + button {
+      margin-left: 1rem;
+    }
+  }
+}

@@ -22,4 +22,11 @@ export class CoursesService {
       )
     )
   }
+
+  save(record: Partial<Course>) { 
+    return this.httpClient.post<Partial<Course>>(this.API, record)
+    .pipe(
+      first(),
+    )
+  }
 }
